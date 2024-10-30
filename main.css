@@ -13,10 +13,12 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Rakkas', cursive;
+	display: inline;
 }
 
 aside {
-	
+	float: left;
+	width: 25px;
 }
 
 footer {
@@ -32,11 +34,13 @@ img {
 }
 
 main {
-
+	float: left;
+	width: 75px;
 }
 
 nav {
-
+	float: left;
+	width: 25px;
 }
 
 #copyright {
