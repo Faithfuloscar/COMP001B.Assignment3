@@ -13,16 +13,16 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Rakkas', cursive;
-	display: inline;
 }
 
 aside {
-	float: left;
-	width: 25px;
+	flex: 1;
+	padding: 20px;
 }
 
 footer {
-
+	text-align: center;
+	margin-top: 20px;
 }
 
 header {
@@ -30,23 +30,31 @@ header {
 }
 
 img {
-	max-width: 75%;
+	max-width: 100%;
+	height: auto;
 }
 
 main {
-	float: left;
-	width: 75px;
+	flex: 2;
+	padding: 20px;
+	margin-right: 10px;
 }
 
 nav {
-	float: left;
-	width: 25px;
+	flex: 1;
+	padding: 20px;
+	margin-right: 10px;
 }
 
 #copyright {
+	margin: auto;
+	width: auto;
+	float: left;
+	display: inline;
 	font-size: 80%;
 }
 
 #main-container {
-
+	display: flex;
+	margin: 20px;
 }
